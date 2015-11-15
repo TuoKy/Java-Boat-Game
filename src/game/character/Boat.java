@@ -44,8 +44,8 @@ public class Boat extends Moveable {
 
     public Boat() {
     }
-
-    private double pinAngle(double value) {
+ 
+    public double pinAngle(double value) {
         if (Math.abs(value) > Math.PI) {
             while (value > Math.PI) {
                 value = value - (2 * Math.PI);
